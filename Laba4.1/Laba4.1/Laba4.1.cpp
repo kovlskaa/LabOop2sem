@@ -22,7 +22,8 @@ int main()
 	Vec v1;
 	Vec v2(4, 3);
 	Vec v3(v2);
-
+	float len = v3.Len();
 	v3 = v3.operator*(2);
+	float Nlen = v3.Len();
 	v1 = v3.operator-(v2);
 }

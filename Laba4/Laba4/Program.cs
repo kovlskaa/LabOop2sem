@@ -30,8 +30,9 @@ namespace Laba4
             Vector vec3 = new Vector(vec2);
             var len3 = vec3.Dlina();
             vec3 = vec3 * 2;
+            vec3 = 2 * vec3;
             var lenN3 = vec3.Dlina();
-            //var x = vec3.X();
+            //var x = vec3.CoordX;
             vec1 = vec3 - vec2;
         }
     }

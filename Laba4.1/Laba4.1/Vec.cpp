@@ -11,7 +11,15 @@ Vec::Vec(Vec &v)
 	x = v.x;
 	y = v.y;
 }
-double Vec:: Len() 
+int Vec::CoordX()
+{
+	return x; 
+}
+int Vec::CoordY()
+{
+	return y;
+}
+float Vec:: Len() 
 {
 	return sqrt(pow(x, 2)+pow(y, 2));
 }

@@ -12,7 +12,9 @@ public:
 	Vec();
 	Vec(int i, int j);
 	Vec(Vec&);
-	double Len();
+	int CoordX();
+	int CoordY();
+	float Len();
 	Vec operator *(int k);
 	Vec operator -(Vec v);
 };

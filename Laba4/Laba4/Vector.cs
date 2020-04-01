@@ -8,7 +8,15 @@ namespace Laba4
 {
     class Vector
     {
-        private int x, y;
+        int x, y;
+        public int CoordX
+        {
+            get{return x;}
+        }
+        public int CoordY
+        {
+            get { return y; }
+        }
         public Vector() { }
         public Vector(int i, int j)
         {
@@ -19,18 +27,14 @@ namespace Laba4
         public double Dlina()
         {
             return Math.Sqrt(Math.Pow(x, 2)+ Math.Pow(y, 2));
-        }
-         public int X()
-        {
-            return x;
-        }
-        public int Y()
-        {
-            return y;
-        }
+        }      
         public static Vector operator *(Vector v, int k)
         {
-            return new Vector(v.X()*k,v.Y()*k);
+            return new Vector(v.x*k,v.y*k);
+        }
+        public static Vector operator *(int k, Vector v)
+        {
+            return new Vector(v.x * k, v.y * k);
         }
         public static Vector operator -(Vector v3, Vector v2)
         {
