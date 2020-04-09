@@ -1,5 +1,4 @@
 #pragma once
-#include <cmath>
 
 class Line
 {
@@ -8,4 +7,3 @@ class Line
 	Line(int, int);
 	virtual double Len()=0;
 };
-
