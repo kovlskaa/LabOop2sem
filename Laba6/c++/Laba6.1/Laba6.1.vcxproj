@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{3E688667-C5FB-4EDB-8EA4-38E56757AFF8}</ProjectGuid>
+    <ProjectGuid>{18B62CBF-247D-4F33-949F-4A57CDD8A254}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Laba51</RootNamespace>
+    <RootNamespace>Laba61</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -147,19 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Big.cpp" />
-    <ClCompile Include="Laba5.1.cpp" />
-    <ClCompile Include="Line.cpp" />
-    <ClCompile Include="Segm.cpp" />
-    <ClCompile Include="Small.cpp" />
-    <ClCompile Include="Str.cpp" />
+    <ClCompile Include="Exp.cpp" />
+    <ClCompile Include="Laba6.1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Big.h" />
-    <ClInclude Include="Line.h" />
-    <ClInclude Include="Segm.h" />
-    <ClInclude Include="Small.h" />
-    <ClInclude Include="Str.h" />
+    <ClInclude Include="Exp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

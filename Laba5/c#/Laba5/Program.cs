@@ -19,14 +19,16 @@ namespace Laba5
     {
         static void Main(string[] args)
         {
-            int startY = 1, startX = 1, endX = 2, endY = 2;
-            Segm segm = new Segm(endX - startX, endY - startY);
-            Line segm1 = new Segm(endX, endY);
 
-            var len1 = segm1.Len();
+            Big letter1 = new Big("TTYVBNV N N4545N N");
+            Small letter2 = new Small("ftfjhb h jgjhg");
 
-            var len = segm.Len();
-            var angle = segm.Angle();
+            int size1 = letter1.Len();
+            int size2 = letter2.Len();
+
+            letter1.Insert();
+            letter2.Insert();
+            Console.ReadKey();
         }
     }
 }

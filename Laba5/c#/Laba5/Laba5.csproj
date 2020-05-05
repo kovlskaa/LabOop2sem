@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Big.cs" />
+    <Compile Include="Str.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Segm.cs" />
+    <Compile Include="Small.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

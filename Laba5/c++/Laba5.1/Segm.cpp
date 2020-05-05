@@ -9,7 +9,7 @@ double Segm:: Len()
 
 double Segm:: Angle()
 {
-    return acos(CoordX / Len()) * (180 / M_PI);
+    return acos(CoordX / Len()) * (180 / 3.14);
 }
 
 int Segm::x()
